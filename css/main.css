@@ -4,4 +4,17 @@
   padding: 0; }
 
 .img_index {
-  width: 40vw; }
+  width: 40vw;
+  border-radius: 2%; }
+
+@media only screen and (max-width: 768px) {
+  .img_index {
+    width: 80vw; } }
+
+.img_abt {
+  width: 25vw;
+  border-radius: 2%; }
+
+@media only screen and (max-width: 768px) {
+  .img_abt {
+    width: 65vw; } }
